@@ -93,7 +93,6 @@ public class VarastoTest {
         double saatu = varasto.otaVarastosta(10);
         assertEquals(1, saatu, vertailuTarkkuus);
     }
-    
 
     @Test
     public void konstr() {
