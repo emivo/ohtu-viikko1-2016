@@ -94,6 +94,11 @@ public class VarastoTest {
         assertEquals(1, saatu, vertailuTarkkuus);
     }
     
+    @Test
+    public void ainaEpaonnistuu() {
+        assertTrue(false);
+    }
+    
 
     @Test
     public void konstr() {
